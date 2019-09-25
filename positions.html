@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        #static{
+            position:static;
+            height:300px;
+            width:25%;
+            background-color: pink;
+        }
+        #relative{
+            margin-left: 50px;
+            margin-top: 20px;
+            height:200px;
+            width:400px;
+            position: relative;
+            background-color: yellow;
+        }
+        #absolute{
+            right: 10px;
+            bottom: 0;
+            height: 100px;
+            width:200px;
+            background-color: teal;
+            position: absolute;
+
+        }
+        #fixed{
+            height: 100px;
+            width: 300px;
+            right: 40%;
+            left: 40%;
+            align-content: center;
+            top: 0;
+            position: fixed;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="static">
+        This div element has position static
+    </div>
+    <div id="relative">This div element has position relative
+        <div id="absolute">
+            The div element has position absolute
+        </div>
+    </div>
+    <div id = "fixed">
+        This div element has position fixed.
+    </div>
+    <div id="static">
+        This div element has position static
+    </div>
+    <div id="relative">This div element has position relative
+        <div id="absolute">
+            The div element has position absolute
+        </div>
+    </div>
+</body>
+</html>
